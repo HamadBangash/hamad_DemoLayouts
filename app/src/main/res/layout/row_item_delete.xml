@@ -1,0 +1,44 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:orientation="vertical" android:layout_width="match_parent"
+    android:background="@drawable/listview_style"
+    android:layout_height="match_parent">
+
+
+    <LinearLayout
+        android:orientation="horizontal"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent">
+
+        <CheckBox
+            android:buttonTint="#fff"
+            android:typeface="serif"
+            android:textColor="#fff"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:id="@+id/checkBox"
+            android:checked="false"
+            android:layout_weight="0.06" />
+
+        <TextView
+            android:textSize="15sp"
+            android:typeface="serif"
+            android:textColor="#fff"
+            android:text="TextView"
+            android:layout_width="0dp"
+            android:layout_height="wrap_content"
+            android:id="@+id/tvFileName"
+            android:layout_weight="0.47" />
+
+        <TextView
+            android:textSize="15sp"
+            android:typeface="serif"
+            android:gravity="center"
+            android:textColor="#fff"
+            android:text="TextView"
+            android:layout_width="0dp"
+            android:layout_height="wrap_content"
+            android:id="@+id/tvDate"
+            android:layout_weight="1" />
+    </LinearLayout>
+</LinearLayout>

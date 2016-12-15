@@ -1,0 +1,52 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    android:background="@drawable/listview_style"
+    android:orientation="horizontal" android:layout_width="match_parent"
+    android:layout_height="match_parent">
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent">
+
+        <TextView
+            android:padding="10dp"
+            android:layout_marginTop="10dp"
+            android:textColor="#fff"
+            android:textSize="15sp"
+            android:typeface="serif"
+            android:text="TextView"
+            android:layout_width="0dp"
+            android:layout_height="wrap_content"
+            android:id="@+id/tvName"
+            android:layout_weight="3.66" />
+
+        <ImageButton
+            android:layout_marginTop="15dp"
+            android:background="@android:color/transparent"
+            android:layout_width="0dp"
+            android:layout_height="wrap_content"
+          android:src="@drawable/view"
+            android:id="@+id/btnView"
+            android:layout_weight="1" />
+
+        <ImageButton
+            android:layout_marginTop="15dp"
+            android:background="@android:color/transparent"
+            android:layout_width="0dp"
+            android:layout_height="wrap_content"
+          android:src="@drawable/download"
+            android:id="@+id/btnDownload"
+            android:layout_weight="1" />
+
+        <ImageButton
+            android:layout_marginTop="15dp"
+            android:background="@android:color/transparent"
+            android:layout_width="0dp"
+            android:layout_height="wrap_content"
+            android:src="@drawable/delete"
+            android:id="@+id/btnDelete"
+            android:layout_weight="1" />
+
+    </LinearLayout>
+</LinearLayout>
